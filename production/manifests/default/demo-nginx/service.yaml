@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: nginx
   labels:
-    version: "v7"
+    version: "v8"
 spec:
   selector:
     app: nginx
