@@ -3,6 +3,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx
+  labels:
+    version: "v7"
 spec:
   selector:
     app: nginx
