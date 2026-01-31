@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: nginx
   labels:
-    version: "v4"
+    version: "v5"
 spec:
   replicas: 0
   selector:
